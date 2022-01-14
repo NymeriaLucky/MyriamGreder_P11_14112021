@@ -1,0 +1,32 @@
+.user {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.user__name {
+  align-items: center;
+  display: flex;
+  font-size: 0.75rem;
+  margin-right: 10px;
+  text-align: end;
+  width: 60px;
+}
+
+.user__img {
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+}
+
+@media screen and (min-width: 1440px) {
+  .user__img {
+    height: 4rem;
+    width: 4rem;
+  }
+
+  .user__name {
+    font-size: 1.5rem;
+    width: 120px;
+  }
+}
